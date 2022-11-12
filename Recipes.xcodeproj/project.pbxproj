@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98E4F7FE291EF5CC00CBA7A7 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E4F7FD291EF5CC00CBA7A7 /* GridView.swift */; };
+		98E4F800291EF5D800CBA7A7 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E4F7FF291EF5D800CBA7A7 /* ListView.swift */; };
+		98E4F802291F05C000CBA7A7 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E4F801291F05C000CBA7A7 /* NetworkManager.swift */; };
+		98E4F804291F05CD00CBA7A7 /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E4F803291F05CD00CBA7A7 /* Recipes.swift */; };
 		98F63110291EEEAE0073B9E8 /* RecipesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F6310F291EEEAE0073B9E8 /* RecipesApp.swift */; };
 		98F63112291EEEAE0073B9E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F63111291EEEAE0073B9E8 /* ContentView.swift */; };
 		98F63114291EEEAF0073B9E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F63113291EEEAF0073B9E8 /* Assets.xcassets */; };
 		98F63117291EEEAF0073B9E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F63116291EEEAF0073B9E8 /* Preview Assets.xcassets */; };
+		98F6311E291EEECD0073B9E8 /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F6311D291EEECD0073B9E8 /* RecipesView.swift */; };
+		98F63120291EEEDF0073B9E8 /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F6311F291EEEDF0073B9E8 /* InformationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		98E4F7FD291EF5CC00CBA7A7 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		98E4F7FF291EF5D800CBA7A7 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		98E4F801291F05C000CBA7A7 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		98E4F803291F05CD00CBA7A7 /* Recipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipes.swift; sourceTree = "<group>"; };
 		98F6310C291EEEAE0073B9E8 /* Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F6310F291EEEAE0073B9E8 /* RecipesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesApp.swift; sourceTree = "<group>"; };
 		98F63111291EEEAE0073B9E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		98F63113291EEEAF0073B9E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98F63116291EEEAF0073B9E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		98F6311D291EEECD0073B9E8 /* RecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesView.swift; sourceTree = "<group>"; };
+		98F6311F291EEEDF0073B9E8 /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				98F6310F291EEEAE0073B9E8 /* RecipesApp.swift */,
 				98F63111291EEEAE0073B9E8 /* ContentView.swift */,
+				98E4F801291F05C000CBA7A7 /* NetworkManager.swift */,
+				98E4F803291F05CD00CBA7A7 /* Recipes.swift */,
+				98F6311D291EEECD0073B9E8 /* RecipesView.swift */,
+				98E4F7FD291EF5CC00CBA7A7 /* GridView.swift */,
+				98E4F7FF291EF5D800CBA7A7 /* ListView.swift */,
+				98F6311F291EEEDF0073B9E8 /* InformationView.swift */,
 				98F63113291EEEAF0073B9E8 /* Assets.xcassets */,
 				98F63115291EEEAF0073B9E8 /* Preview Content */,
 			);
@@ -138,6 +156,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				98F63112291EEEAE0073B9E8 /* ContentView.swift in Sources */,
+				98F63120291EEEDF0073B9E8 /* InformationView.swift in Sources */,
+				98E4F800291EF5D800CBA7A7 /* ListView.swift in Sources */,
+				98E4F804291F05CD00CBA7A7 /* Recipes.swift in Sources */,
+				98E4F802291F05C000CBA7A7 /* NetworkManager.swift in Sources */,
+				98F6311E291EEECD0073B9E8 /* RecipesView.swift in Sources */,
+				98E4F7FE291EF5CC00CBA7A7 /* GridView.swift in Sources */,
 				98F63110291EEEAE0073B9E8 /* RecipesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
